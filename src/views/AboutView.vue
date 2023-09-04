@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="container mt-5 mb-5">
+      <div>
+          <h1>About</h1>
+      </div>
   </div>
 </template>
+
+<script>
+
+</script>
+
+<style>
+
+</style>
