@@ -8,8 +8,8 @@
       <ProductDescriptionDrawer :product="product" />
     </div>
     <div class="row row-cols-1 row-cols-md-4 g-4">
-      <div class="col" v-for="product in items" :key="product.id">
-        <ProductSummaryCard :product="product" @view-product="viewProduct($event)" />
+      <div class="col" v-for="item in items" :key="item.id">
+        <ProductSummaryCard :product="item" @view-product="viewProduct($event)" />
         <!-- @click="viewProduct(product)" or v-on:view-product="viewProduct(product)" or @view-product="viewProduct(product)". @click: This is a shorthand for the v-on:click -->
       </div>
     </div>
